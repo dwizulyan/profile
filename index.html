@@ -8,78 +8,29 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
       rel="stylesheet"
     />
     <style>
       * {
-        font-family: "League Spartan", sans-serif;
+        font-family: "JetBrains Mono", sans-serif;
       }
     </style>
     <title>Dwi Zulyan Hamid</title>
   </head>
   <body>
-    <div class="w-full h-screen flex items-center justify-center">
-      <div
-        class="w-[60%] h-[40vh] bg-slate-950 rounded-lg flex gap-5 px-5 items-center"
-      >
-        <div
-          class="w-[200px] h-[200px] flex items-center justify-center overflow-hidden rounded-full"
-        >
-          <img src="./FB_IMG_1667286136165.jpg" />
-        </div>
-        <div class="h-[200px] py-5">
-          <h1 class="text-white font-bold text-3xl">Dwi Zulyan Hamid</h1>
-          <p class="font-medium text-slate-50">
-            Programming Enthusiast, Like to do Backend Stuff.
-          </p>
-          <p class="year text-white font-medium mt-1 mb-1"></p>
-          <p class="text-white flex gap-1">
-            Primarily using
-            <a
-              href="https://bun.sh/"
-              class="flex items-center gap-1 hover:underline hover:text-blue-300"
-              hrf=""
-            >
-              Bun <img src="bun_logo.svg" class="w-[16px] h-[16px]" /></a
-            >and
-            <a
-              href="https://hono.dev/"
-              class="flex gap-1 items-center hover:underline hover:text-blue-300"
-              >Hono<img src="./hono_logo.png" class="w-[16px] h-[16px]"
-            /></a>
-            for Backend.
-          </p>
-          <p class="text-white">
-            See my project on my
-            <a
-              class="underline text-blue-300"
-              href="https://github.com/dwizulyan"
-              >github</a
-            >
-            .
-          </p>
-          <p class="text-white">
-            Get in touch with me on my social :
-            <a class="text-white hover:underline hover:text-blue-300" href=""
-              >linkedin</a
-            >,
-            <a class="text-white hover:underline hover:text-blue-300" href=""
-              >instagram</a
-            >,
-            <a class="text-white hover:underline hover:text-blue-300" href=""
-              >facebook</a
-            >,
-            <a class="text-white hover:underline hover:text-blue-300" href=""
-              >xTwitter</a
-            >,
-            <a class="text-white hover:underline hover:text-blue-300" href=""
-              >discord</a
-            >
-          </p>
-        </div>
-      </div>
+    <div class="w-full h-screen flex flex-col bg-gray-800 p-5 gap-5">
+      <img src="./FB_IMG_1667286136165.jpg" class="w-[50%] rounded-full" />
+      <h1 class="font-black text-6xl text-white">Dwi Zulyan Hamid</h1>
+      <p class="text-white">Hey&#128075, I'm a College Student, Self-proclaimed "Programmer" &#128514, and a ... Yeah.</p>
+      <p class="text-white">I like do backend stuff, you know, like building REST API.</p>
+      <p class="text-white">I use HonoJS most of the time, it's great framework. Check it out</p>
+      <p class="text-gray-800 text-sm year px-2 py-1 bg-green-200 w-max"></p>
     </div>
     <script>
       const elemYear = document.querySelector(".year");
